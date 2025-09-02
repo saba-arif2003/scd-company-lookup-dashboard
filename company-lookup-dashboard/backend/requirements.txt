@@ -1,0 +1,18 @@
+# Core FastAPI dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# HTTP client
+aiohttp==3.9.5
+
+# Yahoo Finance API - latest stable version
+yfinance==0.2.33
+
+# Basic data processing
+pandas>=2.1.0
+
+# Environment variables
+python-dotenv==1.0.0
+
+# CORS middleware (already included in FastAPI)
+# python-multipart==0.0.6  # Only if you need form uploads
